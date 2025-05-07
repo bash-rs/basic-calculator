@@ -4,9 +4,7 @@
 # include <stdlib.h>
 # include <string.h>
 
-int add(int a, int b) {
-    return a + b;
-}
+extern int add(int a, int b); // from Rust
 
 int subtract(int a, int b) {
     return a - b;
