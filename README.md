@@ -10,3 +10,7 @@
 ## To run
 e.g. `./calc 2 + 3`
 
+### Makefile
+To use `make` commands,
+- compile via `make all`
+- run via `make run ARGS="3 + 4"`
