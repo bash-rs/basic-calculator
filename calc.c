@@ -3,12 +3,9 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
+# include "math.h" // Include the subtract() declaration
 
 extern int add(int a, int b); // from Rust
-
-int subtract(int a, int b) {
-    return a - b;
-}
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
